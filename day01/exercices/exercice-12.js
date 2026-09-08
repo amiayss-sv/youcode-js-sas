@@ -17,4 +17,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let annee = 2024;
+let resultat;
+ if ((annee % 400 === 0) || (annee % 4 === 0 && annee % 100 !== 0)) {
+    resultat="bissextile";
+
+}
+console.log(resultat);
