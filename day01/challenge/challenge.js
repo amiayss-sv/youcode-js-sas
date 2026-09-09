@@ -21,4 +21,32 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+let montantEmprunte = 100000;
+let dureeEnMois = 24;
+let revenuMensuel = 8000;
+
+// Calcul de la mensualité
+let mensualite = montantEmprunte / dureeEnMois;
+
+// Calcul de la limite : 30% du revenu mensuel (*0.3)
+let limite = revenuMensuel * 0.30;
+
+// Vérifier si la mensualité ne dépasse pas 30% du revenu
+if (mensualite <= limite) {
+    // Si oui, le prêt est accordé
+    console.log("Prêt accordé. Mensualité :", mensualite, "MAD");
+}
+
+// Si le prêt n'est pas éligible, vérifier si le revenu dépasse 10000 MAD
+else if (revenuMensuel > 10000) {
+    // Proposer d'augmenter la durée du prêt
+    console.log("Nous vous proposons d'augmenter la durée du prêt.");
+}
+
+// Si aucune des conditions précédentes n'est vraie
+else {
+   
+    console.log("Prêt refusé");
+}
+
