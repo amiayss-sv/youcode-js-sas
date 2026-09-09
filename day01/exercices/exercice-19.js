@@ -18,4 +18,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let hasAccount = false;
+let isGuest = true;
+let cartValue = 150;
+let isBanned = false;
+
+let canValidate = !isBanned && (hasAccount || (isGuest && cartValue > 100));
+
+switch (true) {
+    case canValidate:
+        console.log("Commande validée ");
+        break;
+
+    default:
+        console.log("Commande refusée ");
+}
