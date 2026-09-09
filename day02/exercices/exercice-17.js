@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let totalItems = 45;
+let itemsPerPage = 10;
+let page = 1;
+
+while ((page - 1) * itemsPerPage < totalItems) {
+
+    let remainingItems = totalItems - (page - 1) * itemsPerPage;
+    let itemsOnPage = Math.min(itemsPerPage, remainingItems);
+
+    console.log(`Scraping page ${page} (${itemsOnPage} items)`);
+
+    page++;
+}
