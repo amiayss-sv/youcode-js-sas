@@ -1,14 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 07 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * FONCTION DANS UNE FONCTION
+ * JOUR 02 · EXERCICE 10 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * LA FACTORIELLE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Déclarez une fonction carre(x) puis une fonction sommeDesCarres(a, b) qui appelle carre pour a et pour b, et retourne la somme de leurs carrés.
+ * Calculez la factorielle de 6 (écrit 6! = 6 * 5 * 4 * 3 * 2 * 1) avec une boucle.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-07
- * ▶️ Commande : node day03/exercices/exercice-07.js
+ * RÉSULTAT ATTENDU
+ * 720
+ *
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-10
+ * ▶️ Commande : node day02/exercices/exercice-10.js
  */
 'use strict';
 
@@ -17,12 +20,8 @@
 
 
 
-function carre(x){
-    return x*x;
-     
+let factorielle = 1;
+for (let i = 1; i <= 6; i++) {
+    factorielle = factorielle * i;
 }
-function sommeDesCarres(a, b){
-    return carre(a) + carre(b);
-
-}
-console.log(sommeDesCarres(2,3))
+     console.log(factorielle);

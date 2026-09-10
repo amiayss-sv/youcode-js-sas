@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+ function Mathmax(a,b,c){
+    if (a>b && a>c)
+      return a;
+        else  if (b>a && b>c)
+      return b;
+        else   (c>a && c>b)
+      return c;
+ }
+         console.log(Mathmax(-2,-9,-3))
