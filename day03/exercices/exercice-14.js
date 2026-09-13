@@ -14,4 +14,46 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function addition(a,b){
+    return a+b; 
+
+}
+function multiplication(a,b){
+    return a*b; 
+    
+}
+function soustraction(a,b){
+    return a-b; 
+    
+}
+function division(a,b){
+    return a/b; 
+    
+}
+
+function calculatrice(a, b, signe){
+
+    switch(signe){
+
+        case "+":
+         return addition (a,b);
+            
+             case "*":
+               return multiplication(a,b)
+              
+                case "-":
+                return soustraction(a,b);
+
+                  case "/":
+                    if(b!=0)
+                    return division(a,b);
+                   
+                    default :
+                    return "operation invalide";
+    }
+}
+ console.log(calculatrice(3, 7, "§"))
+ console.log(calculatrice(3, 7, "*"))
+ console.log(calculatrice(3, 7, "-"))
+ console.log(calculatrice(3, 3, "/"))

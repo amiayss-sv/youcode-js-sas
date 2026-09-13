@@ -14,4 +14,25 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+    function extrairePrixEtConvertir(chaineBrute) {
+    // Nettoyer les espaces
+    let chaine = chaineBrute.trim();
+
+    // Enlever "Prix:" et "$"
+    chaine = chaine.replace("Prix:", "").replace("$", "").trim();
+
+    // Convertir en nombre
+    let prix = Number(chaine);
+
+    // Vérifier si la conversion est valide
+    if (Number.isNaN(prix)) {
+        return null;
+    }
+
+    return prix;
+}
+
+console.log(extrairePrixEtConvertir("   Prix: 15.99 $  ")); 
+console.log(extrairePrixEtConvertir("Prix: 20 $"));         
+console.log(extrairePrixEtConvertir("Bonjour"));             // null

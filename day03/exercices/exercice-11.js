@@ -15,13 +15,12 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-function Factorielle(n)
-{
-    
-    let factorielle = 1;
-for (let i = 1; i <= 6; i++) {
-    if 
-    factorielle = factorielle * i;
+function Factorielle(n){
+
+    if(n===0||n===1)
+       return 1;
+        else
+         return n* Factorielle(n-1);
+
 }
-}
-     console.log(factorielle);
+     console.log(Factorielle(17));
