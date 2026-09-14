@@ -16,5 +16,4 @@
 // 2. Écris ta solution sous cette ligne.
 
 let villes = ["Rabat", "Casablanca", "Tanger"];
-villes.includes("Marrakech");
-console.log()
+console.log(villes.includes("Marrakech"));

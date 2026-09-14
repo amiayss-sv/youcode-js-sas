@@ -14,4 +14,31 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function trouverExtremes(nombres) {
+    let maximum = nombres[0];
+    let minimum = nombres[0];
+
+    for (let i = 0; i < nombres.length; i++) {
+
+        if (nombres[i] > maximum) {
+            maximum = nombres[i];
+        }
+
+        if (nombres[i] < minimum) {
+            minimum = nombres[i];
+        }
+    }
+
+    return {
+        maximum: maximum,
+        minimum: minimum
+    };
+}
+
+let nombres = [7, 2, 15, 4, 9];
+
+let resultat = trouverExtremes(nombres);
+
+console.log("Le maximum est :", resultat.maximum);
+console.log("Le minimum est :", resultat.minimum);
