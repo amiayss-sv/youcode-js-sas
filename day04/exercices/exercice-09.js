@@ -17,10 +17,14 @@
 // TODO: écris ta solution ici.
 
 function pairs(nombres){
-    for(let i=0; i < nombres.length; i++)
-    if(nombres[i] % 2 ==0)
-      newArray.push((nombre[i]))
-};
+    let newArray =[]
+    for(let i=0; i < nombres.length; i++) {
+
+        if(nombres[i] % 2 ==0)
+         newArray.push((nombre[i]))
+    }
+    return newArray
+}
 const nombre=[1,2,3,4,5,6]
-let resultat = pairs(nombres);
-console.log("Les nombres pairs sont :", resultat.pairs);
+console.log(pairs(nombre))
+

@@ -14,4 +14,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function sontEgaux(tab1,tab2){
+    if(tab1.length != tab2.length){
+        return "les deux tableaux ne sont pas égaux"
+    }
+    for(let i=0;i<tab1.length;i++){
+        if (tab1[i]!=tab2[i])
+            return "les deux tableaux ne sont pas egaux"
+} 
+  return "les deux tableaux sont égaux"
+}
+
+console.log(sontEgaux([1,2,3,4],[1,2,3,4]))

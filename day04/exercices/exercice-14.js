@@ -14,4 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const numbres=[1,2,3]
+let dernier = numbres.pop();
+console.log(numbres.unshift(3))
+console.log(numbres)

@@ -14,4 +14,8 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const tableau=[]
+for( let i=1;i<=100;i++){
+    tableau.push(i)
+}
+console.log(tableau.slice(0, 10))
