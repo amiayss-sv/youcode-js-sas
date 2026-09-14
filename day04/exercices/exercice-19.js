@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
- * TIMEOUT SIMULÉ (CALLBACK ASYNCHRONE CONCEPT)
+ * JOUR 04 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * RECHERCHE BINAIRE (CONCEPT DE BASE)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Bien que ce ne soit pas spécifique au DOM, utilisez la fonction native setTimeout(callback, delai) pour créer une fonction alarme(message, secondes) qui affichera le message après X secondes.
+ * Contrairement à la recherche linéaire (parcourir tout le tableau un par un), la recherche binaire cherche un élément dans un tableau TRIÉ en coupant l'espace de recherche en deux à chaque fois. Essayez de comprendre et d'implémenter ce concept pour trouver l'index de 45 dans [10, 20, 30, 40, 45, 50, 60].
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
- * ▶️ Commande : node day03/exercices/exercice-19.js
+ * ▶️ Commande : node day04/exercices/exercice-19.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+// TODO: écris ta solution ici.

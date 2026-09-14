@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
- * TIMEOUT SIMULÉ (CALLBACK ASYNCHRONE CONCEPT)
+ * JOUR 04 · EXERCICE 12 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * LE DÉDOUBLONNEUR
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Bien que ce ne soit pas spécifique au DOM, utilisez la fonction native setTimeout(callback, delai) pour créer une fonction alarme(message, secondes) qui affichera le message après X secondes.
+ * Écrivez une fonction qui prend un tableau avec des doublons [1, 2, 2, 3, 4, 4, 5] et retourne un nouveau tableau sans doublons.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
- * ▶️ Commande : node day03/exercices/exercice-19.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-12
+ * ▶️ Commande : node day04/exercices/exercice-12.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+// TODO: écris ta solution ici.

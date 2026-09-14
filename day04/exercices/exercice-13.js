@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
- * TIMEOUT SIMULÉ (CALLBACK ASYNCHRONE CONCEPT)
+ * JOUR 04 · EXERCICE 13 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * COMPARAISON DE TABLEAUX
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Bien que ce ne soit pas spécifique au DOM, utilisez la fonction native setTimeout(callback, delai) pour créer une fonction alarme(message, secondes) qui affichera le message après X secondes.
+ * Créez une fonction sontEgaux(tab1, tab2) qui vérifie si deux tableaux contiennent exactement les mêmes éléments dans le même ordre. (Rappel: [1] == [1] donne false en JS !).
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
- * ▶️ Commande : node day03/exercices/exercice-19.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-13
+ * ▶️ Commande : node day04/exercices/exercice-13.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+// TODO: écris ta solution ici.

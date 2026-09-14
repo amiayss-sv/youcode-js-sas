@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
- * TIMEOUT SIMULÉ (CALLBACK ASYNCHRONE CONCEPT)
+ * Jour 05 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * EXTRACTION DE HASHTAGS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Bien que ce ne soit pas spécifique au DOM, utilisez la fonction native setTimeout(callback, delai) pour créer une fonction alarme(message, secondes) qui affichera le message après X secondes.
+ * À partir d'un tweet : "Beau temps à #Nador aujourd'hui avec la team #YouCode !", extrayez tous les hashtags et retournez-les dans un tableau ["#Nador", "#YouCode"].
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
- * ▶️ Commande : node day03/exercices/exercice-19.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
+ * ▶️ Commande : node day05/exercices/exercice-16.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+// TODO: écris ta solution ici.

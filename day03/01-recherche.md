@@ -74,12 +74,12 @@ La portée (scope) désigne l'endroit du code où une variable est accessible:
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-1: 
+1: Fonction classique :
 function nomFunction(parametre) {
     // instructions
 }
 
-2: 
+2: arrow  faunction
 const nomFunction = (parametre) => {
     return ...
 }
@@ -138,7 +138,7 @@ expl:
 function saluer(nom = "Invité") {
     console.log("Bonjour " + nom);
 }
-affiche bonjour invité
+//affiche bonjour invité
 > À compléter avec mes propres mots.
 
 ---
