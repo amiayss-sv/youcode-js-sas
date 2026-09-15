@@ -15,3 +15,19 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
+    const arr1=[1, 3, 5] 
+     const arr2=[2, 4, 6]
+    let arr3 = [];
+    let i = 0; 
+    let j = 0; 
+    while (i < arr1.length && j < arr2.length) {
+        if (arr1[i] < arr2[j]) {
+            arr3.push(arr1[i]);
+            i++; 
+        }
+        else{
+            arr3.push(arr2[j])
+            j++
+        }
+    }
+    console.log(arr3)

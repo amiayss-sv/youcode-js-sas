@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const grille = [[1, 2], [3, 4], [5, 6]];
+let tableau = [];
+for (let i = 0; i < grille.length; i++) {
+   for (let j = 0; j < grille[i].length; j++){
+     tableau.push(grille[i][j]);
+}
+}
+console.log(tableau)

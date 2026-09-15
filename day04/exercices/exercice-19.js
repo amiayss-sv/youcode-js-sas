@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function rechercheMilieu(tableau){
+let debut = 0;
+let fin = tableau.length - 1;
+while(debut<fin){
+    milieu=(debut + fin) / 2
+    if(milieu = 45)
+        return milieu;
+    else if ( milieu < 45)
+        return "déplacer debut à droite"
+    else 
+        return "déplacer fin à gauche";
+}
+const tableau=[10, 20, 30, 40, 45, 50, 60]
+console.log(rechercheMilieu(tableau))
+ 
+}
