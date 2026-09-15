@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const couleurs = ["Rouge", "Vert", "Bleu"];
+let paires=[]
+for (let i = 0; i < couleurs.length; i++) {
+    for (let j = 0; j < couleurs.length; j++) {
+        if(i!==j)
+      paires.push(couleurs[i] + "-" +couleurs[j])
+    }
+}
+console.log(paires)

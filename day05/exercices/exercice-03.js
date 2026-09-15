@@ -14,4 +14,8 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const word1 = "youcode"
+const word2 =  "MAROC"
+console.log(word1.toUpperCase())
+console.log(word2.toLowerCase())

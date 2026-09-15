@@ -9,4 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let date = "2024-10-15";
+
+let annee = date.slice(0,4);
+ console.log(annee);

@@ -17,16 +17,20 @@
 function rechercheMilieu(tableau){
 let debut = 0;
 let fin = tableau.length - 1;
-while(debut<fin){
-    milieu=(debut + fin) / 2
-    if(milieu = 45)
+while(debut<=fin){
+    let milieu = Math.floor((debut + fin) / 2);
+    if(tableau[milieu] === 45){
         return milieu;
-    else if ( milieu < 45)
-        return "déplacer debut à droite"
-    else 
-        return "déplacer fin à gauche";
+    }
+    else if (tableau[milieu] < 45){
+        debut= milieu + 1;
+    }
+    else {
+      fin = milieu -1 ;
+    }
+} 
+  return -1 ;
 }
 const tableau=[10, 20, 30, 40, 45, 50, 60]
 console.log(rechercheMilieu(tableau))
  
-}

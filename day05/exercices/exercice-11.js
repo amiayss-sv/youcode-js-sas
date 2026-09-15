@@ -16,3 +16,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function acronymes(phrase) {
+    let mots = phrase.split(" "); // decouper selon l'espace
+    let resultat = "";
+    for(let i=0; i< mots.length;i++){
+    resultat += mots[i].charAt(0).toUpperCase();
+    }
+    return resultat;
+}
+
+console.log(acronymes("Hyper Text Markup Language"));

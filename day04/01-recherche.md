@@ -104,6 +104,7 @@ affiche true
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+la méthode  concat()
 
 > À compléter avec mes propres mots.
 
@@ -116,7 +117,14 @@ affiche true
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+slice() ne modifie PAS le tableau : Il sert à extraire/copier une partie du tableau.
+suntaxe :
+tableau.slice(debut, fin)
 
+splice() modifie le tableau :
+Il sert à supprimer, ajouter ou remplacer des éléments.
+  suntaxe:
+tableau.splice(debut, nombreASupprimer, element1, element2, ...)//element1 et element2 à ajouter (optionel)
 > À compléter avec mes propres mots.
 
 ---
@@ -128,6 +136,7 @@ affiche true
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Les tableaux en JavaScript sont passés par référence lorsqu'on les assigne à une nouvelle variable
 
 > À compléter avec mes propres mots.
 

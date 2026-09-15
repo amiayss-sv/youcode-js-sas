@@ -10,3 +10,5 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+let mot ="J'apprends le JavaScript à YouCode";
+console.log(mot.toLowerCase().includes("javascript",14))

@@ -23,4 +23,17 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let array = ["noob", "idiot", "nul"];
+
+function filtrerMessage(message) {
+
+   for (let i=0;i< array.length;i++){
+   let mot = array[i];
+   let regex =new RegExp(mot,"gi")
+   message = message.replace(regex, "*".repeat(mot.length))
+
+   }
+    return message;
+}
+
+console.log(filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!"));

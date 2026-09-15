@@ -9,4 +9,5 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let mot = "youcode-safi-2024";
+console.log(mot.replaceAll("-"," ")) 
