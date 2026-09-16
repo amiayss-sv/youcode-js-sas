@@ -9,4 +9,10 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+let voiture = { marque: "Toyota", modele: "Corolla", annee: 2020 };
+   for (let cle in voiture) {
+      console.log(cle + " : " + voiture[cle]);
+}
+
+

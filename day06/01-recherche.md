@@ -22,6 +22,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+La notation pointée objet.propriete permet d’accéder directement à une propriété dont le nom est connu.
+notation crochets (`objet["propriete"]` permet aussi d’accéder à une propriété, mais elle est obligatoire lorsque le nom de la propriété est stocké dans une variable(dynamique) ou contient des caractères spéciaux/espaces.
 
 > À compléter avec mes propres mots.
 
@@ -36,13 +38,13 @@
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
-
+JavaScript retourne undefined.
 ---
 
 ### Question 03
 
 > Comment ajouter une nouvelle propriété à un objet déjà existant ?
-
+ objet.propriete = valeur
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
@@ -58,7 +60,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+delete objet.propriete;
 > À compléter avec mes propres mots.
 
 ---
@@ -70,7 +72,10 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+La boucle recommandée pour parcourir les clés d’un objet est for...in
 
+for...in : parcourt les clés d’un objet.
+ for...of : parcourt les valeurs d’un objet itérable comme un tableau.
 > À compléter avec mes propres mots.
 
 ---
@@ -82,7 +87,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+this désigne l’objet courant, c’est-à-dire l’objet auquel appartient la méthode:l’objet qui appelle la méthode.
 > À compléter avec mes propres mots.
 
 ---
@@ -94,7 +99,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+JSON est un format texte utilisé pour échanger ou stocker des données. Il ressemble beaucoup à un objet JavaScript, mais ce n’est pas exactement la même chose;ne peut pas contenir de fonctions, contrairement à un objet JavaScript.
 > À compléter avec mes propres mots.
 
 ---
@@ -106,7 +111,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+la methode JSON.stringify()
 > À compléter avec mes propres mots.
 
 ---
@@ -118,7 +123,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+la methode JSON.parse()
 > À compléter avec mes propres mots.
 
 ---
@@ -130,6 +135,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Cela signifie que obj1 et obj2 pointent vers le même objet en mémoire; Donc, si tu modifies obj2, obj1 sera aussi modifié;Parce que obj2 = obj1 ne crée pas une copie de l’objet, Les deux variables font référence au même objet.
 
 > À compléter avec mes propres mots.
 

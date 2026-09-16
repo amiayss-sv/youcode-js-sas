@@ -14,4 +14,23 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const candidats = [
+    { nom: "Adam", score: 75 },
+    { nom: "Sara", score: 92 },
+    { nom: "sanae", score: 85 }
+];
+
+function candidatsAvecBonScore(candidats) {
+    let array =[];
+    for(let i=0 ;i<candidats.length ;i++){
+         if(candidats[i].score>=10){
+            array.push(candidats[i]);
+        }   
+   }
+   return array;
+    }
+     
+console.log(candidatsAvecBonScore(candidats));
+
+

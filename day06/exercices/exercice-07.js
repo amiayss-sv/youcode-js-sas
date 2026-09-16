@@ -14,4 +14,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+ const livres = [
+    { titre: "Atomic Habits", auteur: "James Clear" },
+    { titre: "Think and Grow Rich", auteur: "Napoleon Hill" },
+    { titre: "The 7 Habits of Highly Effective People", auteur: "Stephen Rechard Covey" }
+];
+console.log(livres[1].titre)

@@ -9,4 +9,11 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let cleRecherche = "modele";
+
+const voiture = {
+    marque: "Toyota",
+    modele: "Corolla",
+    annee: 2022
+};
+console.log(voiture[cleRecherche]);

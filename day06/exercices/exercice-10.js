@@ -14,4 +14,23 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+
+
+const mot = "abracadabra";
+
+function compterLettres(mot) {
+    let compteur = {};
+    for (let i = 0; i < mot.length; i++) {
+         let lettre = mot[i];
+        if (lettre in compteur) {
+    compteur[lettre] = compteur[lettre] + 1;
+} else {
+    compteur[lettre] = 1;
+}
+
+} 
+   return compteur;
+}
+console.log(compterLettres(mot))

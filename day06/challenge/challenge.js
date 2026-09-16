@@ -20,4 +20,62 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+
+let utilisateurs = [];
+
+//  Ajouter un utilisateur
+function ajouterUtilisateur(nom, email) {
+    let id = utilisateurs.length + 1;
+
+    let utilisateur = {
+        id: id,
+        nom: nom,
+        email: email
+    };
+
+    utilisateurs.push(utilisateur);
+}
+
+// Trouver un utilisateur par email
+function trouverParEmail(email) {
+    for (let i = 0; i < utilisateurs.length; i++) {
+        if (utilisateurs[i].email === email) {
+            return utilisateurs[i];
+        }
+    } 
+
+    return undefined;
+}
+
+// Supprimer un utilisateur par ID
+function supprimerParId(id) {
+    for (let i = 0; i < utilisateurs.length; i++) {
+        if (utilisateurs[i].id === id) {
+            utilisateurs.splice(i, 1);
+            return;
+        }
+    }
+}
+
+//  Afficher tous les utilisateurs
+function afficherAnnuaire() {
+    console.log("Annuaire des utilisateurs :");
+
+    for (let i = 0; i < utilisateurs.length; i++) {
+    console.log(`ID : ${utilisateurs[i].id} | Nom : ${utilisateurs[i].nom} | Email : ${utilisateurs[i].email}` );
+    }
+}
+
+
+ajouterUtilisateur("Adam", "adam@gmail.com");
+ajouterUtilisateur("Sara", "sara@gmail.com");
+ajouterUtilisateur("Anas", "Anas@gmail.com");
+
+afficherAnnuaire();
+
+console.log(trouverParEmail("sara@gmail.com"));
+
+supprimerParId(2);
+
+afficherAnnuaire();
