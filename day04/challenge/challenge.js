@@ -18,5 +18,47 @@
  */
 'use strict';
 
-// Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+const panier = [101, 105, 101, 102];
+
+// Ajouter un article
+function ajouterAuPanier(id) {
+    panier.push(id);
+}
+
+// Retirer toutes les occurrences d'un article
+function retirerDuPanier(id) {
+    let nouveauPanier = [];
+
+    for (let i = 0; i < panier.length; i++) {
+        if (panier[i] !== id) {
+            nouveauPanier.push(panier[i]);
+        }
+    }
+
+    panier.length = 0;
+
+    for (let i = 0; i < nouveauPanier.length; i++) {
+        panier.push(nouveauPanier[i]);
+    }
+}
+
+// Afficher les quantités
+function afficherQuantites() {
+    let quantites = {};
+
+    for (let i = 0; i < panier.length; i++) {
+        let id = panier[i];
+
+        if (quantites[id]) {
+            quantites[id]++;
+        } else {
+            quantites[id] = 1;
+        }
+    }
+
+    for (let id in quantites) {
+        console.log(`Article ${id} : ${quantites[id]} exemplaires`);
+    }
+}
+
+afficherQuantites();
