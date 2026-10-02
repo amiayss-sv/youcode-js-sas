@@ -14,4 +14,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let tweet = "Beau temps à #Nador aujourd'hui avec la team #YouCode !";
+
+let resultat = tweet.match(/#\w+/g); //Cherche dans cette chaîne les éléments qui correspondent à ma regex
+
+console.log(resultat);
+
+
+/*#       → cherche le caractère #
+\w      → cherche un caractère alphanumérique (lettre, chiffre ou _)
++       → un ou plusieurs caractères
+g       → cherche toutes les occurrences */

@@ -15,4 +15,4 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 const phrase = "Bonjour tout le monde";
-console .log(phrase.indexOf(" "))
+console.log(phrase.indexOf(" ")) 

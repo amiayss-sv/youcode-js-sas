@@ -15,4 +15,24 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function sontAnagrammes(mot1, mot2) {
+    let lettres1 = mot1.split("");
+    let lettres2= mot2.split("");
+    
+    lettres1.sort();
+    lettres2.sort() ;
+
+    let resultat1 = lettres1.join("");
+    let resultat2 = lettres2.join("");
+    
+    return resultat1 === resultat2 ; 
+}
+let mot1 =  "chien" 
+let mot2 = "niche"
+console.log (sontAnagrammes(mot1 , mot2))
+
+
+
+

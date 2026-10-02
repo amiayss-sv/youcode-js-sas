@@ -17,7 +17,6 @@
 
 function extraireDomaine(email) {
     let position = email.indexOf("@");
-    return email.slice(position + 1);
-    
+    return email.slice(position + 1)
 }
 console.log(extraireDomaine("contact@youcode.ma"))

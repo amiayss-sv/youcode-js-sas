@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+    let phrase = "Bonjour le monde";
+
+let resultat = phrase.split(" ").reverse().join(" "); //split(" ") → transforme la phrase en tableau
+//reverse() → inverse l'ordre 
+//join(" ") → transforme le tableau en phrase
+console.log(resultat);

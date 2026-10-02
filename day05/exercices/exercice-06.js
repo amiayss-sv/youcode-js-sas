@@ -16,4 +16,4 @@
 // 2. Écris ta solution sous cette ligne.
 
 let chaîne = "Safi,Youssoufia,Nador,Casablanca";
-console.log(chaîne.split(","))
+console.log(chaîne.split(","));

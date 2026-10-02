@@ -17,4 +17,4 @@
 function capitaliser(mot){
     return mot.charAt(0).toUpperCase() + mot.slice(1).toLowerCase();
 } 
-console.log(capitaliser("yOUcoDe"))
+console.log(capitaliser("yOUcoDe"));

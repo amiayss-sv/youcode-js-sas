@@ -16,5 +16,5 @@
 // 2. Écris ta solution sous cette ligne.
 
 let mot = "Programmation";
-console .log(mot[0]);
-console.log(mot[mot.length - 1])
+console .log(mot[0]);  // Affichez la première lettre (index 0)
+console.log(mot[mot.length - 1]) //Affichez le dernier lettre (index length -1)

@@ -14,4 +14,27 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function chiffrerCesar(texte, decalage) {
+    let resultat = "";
+
+    for (let i = 0; i < texte.length; i++) {
+        let code = texte.charCodeAt(i);
+
+        let nouveauCode = code + decalage;
+
+        if (nouveauCode > 90) {
+            nouveauCode = nouveauCode - 26;
+        }
+
+        let lettre = String.fromCharCode(nouveauCode);
+
+        resultat += lettre;
+    }
+
+    return resultat;
+}
+
+console.log(chiffrerCesar("ABC", 1));
+console.log(chiffrerCesar("XYZ", 1));

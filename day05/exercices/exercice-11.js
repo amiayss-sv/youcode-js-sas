@@ -25,4 +25,4 @@ function acronymes(phrase) {
     return resultat;
 }
 
-console.log(acronymes("Hyper Text Markup Language"));
+console.log(acronymes("hyper text markup language"))

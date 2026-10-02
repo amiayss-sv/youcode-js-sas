@@ -14,4 +14,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function verifierPlaque(plaque) {
+    let partie = plaque.split("-")
+     
+    if (  partie.length === 3 && /[A-Za-z]/.test(partie[1])){
+          
+        return true ;
+    }
+    else { 
+        return false ;
+    }
+}
+  console.log(verifierPlaque("12345-A-123")) // true 
+  console.log(verifierPlaque("12345-AB-123")) // true 
+  console.log(verifierPlaque("12345-ABC-123")) // true 
+  console.log(verifierPlaque("12345-A-123")) // true 
+  console.log(verifierPlaque("123456-A-123")) // true 
+  console.log(verifierPlaque("12345-A-1234")) // true 

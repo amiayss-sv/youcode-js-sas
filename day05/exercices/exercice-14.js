@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function compterMots(phrase) {
+    let mots = phrase.trim().split(/\s+/);
+
+    return mots.length
+}
+   let phrase = "Bonjour   tout le monde ";
+  console.log(compterMots(phrase))

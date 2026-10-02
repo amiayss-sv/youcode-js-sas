@@ -14,4 +14,20 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function formater(montant) {
+    let nombre = String(montant);
+    let resultat = "";
+
+    for (let i = nombre.length - 3; i >= 0; i -= 3) {
+        resultat = nombre.slice(i, i + 3) + " " + resultat;
+    }
+
+    let reste = nombre.slice(0, (nombre.length - 3) % 3);
+
+    resultat = reste + (reste ? " " : "") + resultat.trim();
+
+    return resultat + " MAD";
+}
+
+console.log(formater(1234567));

@@ -14,4 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function compterlettre(texte){
+ let compteur = 0 ;
+    for (let i = 0; i < texte.length; i++) {
+    let resultat = texte[i].toLowerCase()
+     if( resultat == "e" ){
+        compteur ++ ; 
+    }
+}
+ 
+    return compteur ;
+}
+ console.log(compterlettre("Elle est heureuse"))
