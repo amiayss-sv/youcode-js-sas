@@ -14,4 +14,27 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function regrouperParGroupe(personnes) {
+    const resultat = {};
+
+    personnes.forEach(function(personne) {
+        if (!resultat[personne.groupe]) {
+            resultat[personne.groupe] = [];
+        }
+
+        resultat[personne.groupe].push({
+            nom: personne.nom
+        });
+    });
+
+    return resultat;
+}
+
+const personnes = [
+    { nom: "A", groupe: 1 },
+    { nom: "B", groupe: 2 },
+    { nom: "C", groupe: 1 }
+];
+
+console.log(regrouperParGroupe(personnes));

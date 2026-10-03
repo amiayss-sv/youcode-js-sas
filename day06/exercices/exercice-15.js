@@ -16,4 +16,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const json = '{"id":1, "titre":"Apprendre le JS", "vu":false}';
+
+// JSON → objet JavaScript
+const objet = JSON.parse(json);
+
+// Modifier la propriété vu
+objet.vu = true;
+
+// Objet JavaScript → JSON
+const nouveauJson = JSON.stringify(objet);
+
+console.log(nouveauJson);

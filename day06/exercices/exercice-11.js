@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+const original = { a: 1, b: 2 };
+const copie = { ...original };
+copie.c = 3;
+console.log(original);
+console.log(copie);
